@@ -1,0 +1,88 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    width: 80%;
+    height: 100vh;
+}
+
+body {
+    background-color: #0c0f14;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 700px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    width: 70%;
+    height: 70px;
+}
+
+header > p {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.page-header ul {
+   display: flex;
+   gap: 20px;
+   box-sizing: border-box;
+}
+
+.page-header a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #21262d;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 100px;
+}
+
+.price-cards {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #21262d;
+    padding: 25px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+
+.card a {
+    text-decoration: none;
+    color: #000;
+    background-color: #cce201;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+span.yellow-bg {
+    background-color: #cce201;
+}
